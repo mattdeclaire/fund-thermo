@@ -1,0 +1,34 @@
+{
+  "manifest": "1",
+  "version": "1.0.0",
+  "client_id": 928530341,
+  "elements": [{
+    "path": "files",
+    "name": "Fund Thermo",
+    "version": "1.0.0",
+    "settings": {
+      "config": {
+        "autopop": true
+      },
+      "properties": [{
+        "type": "group",
+        "name": "settings",
+        "label": "Settings",
+        "properties": [
+          {
+            "type": "string",
+            "name": "raised",
+            "label": "Raised",
+            "default": 350
+          },
+          {
+            "type": "string",
+            "name": "goal",
+            "label": "Goal",
+            "default": 500
+          }
+        ]
+      }]
+    }
+  }]
+}
